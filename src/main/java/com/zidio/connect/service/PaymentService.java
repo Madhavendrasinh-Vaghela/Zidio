@@ -8,6 +8,7 @@ public interface PaymentService {
     Payment makePayment(String studentEmail, Double amount);
     List<Payment> getAllPayments();
 List<Payment> getPaymentsByEmail(String email);
+Payment save(Payment payment);
 
 
 }

@@ -34,5 +34,10 @@ public List<Payment> getPaymentsByEmail(String email) {
     return paymentRepository.findByStudentEmail(email);
 }
 
+@Override
+public Payment save(Payment payment) {
+    return paymentRepository.save(payment);
+}
+
 
 }

@@ -22,4 +22,8 @@ public class Payment {
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date paymentDate;
+    private String razorpayOrderId;
+private String razorpayPaymentId;
+private String razorpaySignature;
+
 }
